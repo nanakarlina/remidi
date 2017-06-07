@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".swipe"
+            android:label="@string/title_activity_swipe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tab"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".spinner"
+            android:label="@string/title_activity_spinner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".drawer"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
